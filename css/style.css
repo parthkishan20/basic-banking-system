@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Overpass:wght@300;400;600&display=swap');
+
+*{ 
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+    width: 100%;
+    overflow-x: hidden;
+}
+body{
+    background-color:#F7F7F7;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.noselect {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;       
+    user-select: none;
+    cursor: default;           
+}
+
+.navbar.sticky{
+    padding: 5px 100px;
+    background: #282828;
+}
+.navbar.sticky:hover{
+    background-color: #1E2022;
+}
+.navbar {
+    z-index: 100000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    height: 65px;
+    background: #1E2022;
+    transition: 0.6s;
+}
+
+.logo{
+    font-family: 'Overpass', sans-serif;
+    position: relative;
+    margin: 9px 14px;
+    padding: 9px 14px;
+    font-weight: 700;
+    color: #1E2022;
+    background-color: #F7F7F7;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+.logo:hover{
+    background-color:#1E2022;
+    color: #F7F7F7;
+    margin: 9px 14px;
+    padding: 9px 14px;
+    position: relative;
+}
+
+.item{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item li{
+    position: relative;
+    list-style: none;
+}
+.item li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #F7F7F7;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+.item li a:hover{
+    margin: 9px 14px;
+    padding: 9px 14px;
+    cursor: pointer;
+    background-color: #F7F7F7;
+    color: #1E2022;
+  }
+
+.logo,.navbar.item li a{
+    color: #1E2022;
+}
+
+.main{
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height:100%;
+    padding: 25px;
+    background-size: cover;
+}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 20px;
+    padding: 30px;
+}
+.content h1{
+    margin: auto;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Overpass', sans-serif;
+
+    
+}
+.aboutcontent{
+margin: auto;
+padding: 0 30px;
+}
+.content p{
+    color: #1E2022;
+    font-size: 20px;
+    margin: 30px;
+    
+}
+
+#services{
+    background-color:#555555  ;
+}
+#services h3{
+    font-family: 'Overpass', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.3rem;
+    color: #F7F7F7;
+    /* margin: 15px auto; */
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    /* flex-direction: column; */
+}
+.card_content{
+    margin: 30px auto;
+    height: 200px;
+    width: 25%;
+    background-color: #707070;
+    color: #F7F7F7;
+    border: 2px solid;
+}
+.card_content img{
+    filter: invert(100%);
+    display: block;
+    height: 100px;
+    margin: 15px auto;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: 0px solid black;
+    margin: 15px auto;
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #555555;
+    color: #F7F7F7;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #333333;
+    color: #F7F7F7;
+    transform: scale(0.25rem);
+    transition: 0.5s;
+}
+
+footer{
+    height: 36px;
+    background-color: #181818;
+    color: #F7F7F7;
+    font-weight: bold;
+    font-size: 19px;
+    padding: 6px;
+    text-align: center;
+}
+

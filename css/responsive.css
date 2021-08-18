@@ -1,0 +1,96 @@
+/* .navbar.sticky{
+    height: 200px;
+} */
+
+#cbar{
+    height: 150px;
+}
+
+#tbar{
+    height: 150px;
+}
+#thbar{
+    height: 150px;
+}
+
+/* .navbar{
+    height: 111px;
+    justify-content: space-around;
+    flex-direction: column;
+} */
+
+.navbar{
+    height: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.navbar-customer{
+    height: 200px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#homePage{
+    font-size: 1rem;
+    
+}
+
+
+.item li a{
+    font-size: 13px;
+    padding: 3px 7px;
+    margin: 3px;
+}
+
+.main{
+    flex-direction: column-reverse;
+    height: 100%;
+    width: 100%;
+}
+
+.content{
+    width: inherit;
+    margin: 0px;
+    padding: 16px;
+}
+
+.content h1{
+    font-size: 2rem;
+    padding: 10px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+}
+
+.content p{
+    padding: 0px;
+    font-size: 16px;
+    /* width: 85%; */
+    margin: 15px;
+}
+
+
+#services h3{
+    font-size: 2rem;
+}
+
+.card{
+    flex-direction: column;
+}
+
+.card_content{
+    width: 75%;
+    height: 240px;
+}
+
+.main-table{
+    min-width: 0px;
+}
+
+.main-table thead tr th:nth-child(3){
+    display: none;
+}
+
+.main-table tbody tr td:nth-child(3){
+    display: none;
+}

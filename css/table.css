@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Overpass:wght@300;400;600&display=swap');
+
+@import url(style.css);
+h1{
+  color: #DBD8E3;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.main-table{
+  border-collapse: collapse;
+  margin: 50px auto;
+  width: 75%;
+  font-size: 1rem;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.055);
+}
+
+.main-table thead tr {
+  background-color: #888888;
+  color: #F7F7F7;
+  text-align: left;
+}
+
+.main-table thead tr:hover{
+  color: #333333;
+  background-color: #FFFFFF;
+}
+
+.main-table th,
+.main-table td {
+  padding: 12px 15px;
+}
+
+.main-table tbody tr {
+  border-bottom: 1px solid #333333;
+  background-color: #F7F7F7;
+}
+
+.main-table tbody tr:hover {
+  border-bottom: 1px solid #F7F7F7;
+  background-color: #C0C0C0;
+  color: #F7F7F7;
+}
+
+
+
+.main-table tbody tr:nth-of-type(even) {
+  background-color: #C0C0C0;
+}
+
+.main-table tbody tr:nth-of-type(even):hover{
+  background-color: #888888;
+  color: #F7F7F7;
+}
+
+.main-table tbody tr:last-of-type {
+  border-bottom: 2px solid #F7F7F7;
+}
+
+.main-table tbody tr.active-row {
+  font-weight: bold;
+  color: #333333;
+}
+
+.transferbtn{
+  padding: 5px 10px;
+  color: #F7F7F7;
+  background-color: #888888;
+}
+
+.transferbtn:hover{
+  padding: 5px 10px;
+  color: #EEEEEE;
+  background-color: #333333;
+}
+
+.btn1{
+  font-family: 'Overpass', sans-serif;
+  text-decoration: none;
+  color: #F7F7F7;
+  background-color: #888888;
+}
+
+.btn1:hover {
+background-color: #F7F7F7;
+color: #DBD8E3;
+}

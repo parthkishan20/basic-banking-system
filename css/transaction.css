@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Overpass:wght@300;400;600&display=swap');
+
+html::before{
+    content: "";
+    background: url(../images/mnbg1.jpg) no-repeat center /cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.mainSection{
+    margin: 30px auto;
+    width: 50%;
+    border: 1px solid;
+    background-color: #f7f7f7;
+}
+
+@media only screen and (max-width: 768px){
+    .mainSection{
+        width: 91%;
+    }
+}
+
+.mainSection h2{
+    color: #1E2022;
+    text-align: center;
+    margin: 55px 150px;
+    padding: 10px 10px;
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+.mainSection h2:hover{
+    cursor: default;
+    color: #f7f7f7;
+    background-color: #1E2022;
+}
+
+form{
+    width: 90%;
+    padding: 25px;
+    margin: 0px auto;
+    border: 0px dashed #1E2022;
+    background-color: #dbdbdb;
+}
+
+.form-field{
+    
+    color: #1E2022;
+    font-weight: 900;
+}
+
+.table{
+    margin: auto;
+}
+
+.table tbody{
+    display: inline-table;
+    background-color: transparent;
+}
+
+.table tbody td{
+    font-family: 'Overpass', sans-serif;
+    margin: 15px;
+    padding: 10px;
+}
+
+.input{
+    font-family: 'Overpass', sans-serif;
+    border: none;
+    padding: 5px;
+    box-shadow: 2px 2px 1px black;
+    color: gray;
+    width: 90%;
+}
+
