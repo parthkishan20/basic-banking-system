@@ -1,30 +1,33 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title -->
     <title>TSF Bank</title>
-
+    
+    <!-- icon css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- normal css -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 768px)" href="./css/responsive.css">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Overpass:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
-
+<!-- header -->
 <header  class="navbar">
         <div class="logo" id="homePage">
             <!-- logo -->
             <p class="noselect" style="cursor: pointer;"><i class='bx bxs-bank' ></i> TSF Bank <i class='bx bxs-bank' ></i></p>
         </div>
         <div>
+            <!-- navigation bar items  -->
             <ul class="item">
                 <li><a href="#homePage"><i class='bx bxs-home'></i> Home</a></li>
                 <li><a href="#services"><i class='bx bx-cog'></i> Services</a></li>
@@ -33,6 +36,7 @@
             </ul>
         </div>
     </header>
+    <!-- bank details -->
     <section class="main" id="home">
     <div class="content">
         <h1>
@@ -46,9 +50,11 @@
 </section> <div class="image">
         </div>
     </section>
+    <!-- bank services -->
     <section id="services">
         <h3>Our Services</h3>
         <div class="card">
+            <!-- cards and buttons -->
             <div class="card_content">
                 <img src="./images/people.png" alt="">
                 <button id="customersPage" class="btn">Our Customers</button>
@@ -59,7 +65,11 @@
             </div>
         </div>
     </section>
+
+    <!-- footer line -->
     <footer> <i class='bx bx-copyright'></i> TSF-2021 By PARTH PATEL</footer>
+
+    <!-- javascript -->
     <script type="text/javascript">
         document.getElementById("customers").onclick = function () {
             location.href = "customers.php";
