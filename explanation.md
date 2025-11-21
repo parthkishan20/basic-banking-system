@@ -563,7 +563,7 @@ $rownum = mysqli_num_rows($query);
 .item li a {
     color: #F7F7F7;
     letter-spacing: 2px;
-    font-weight: 500px;
+    font-weight: 500px;  /* NOTE: Should be '500' (no unit) */
     transition: 0.6s;
 }
 
@@ -577,6 +577,8 @@ $rownum = mysqli_num_rows($query);
 - Smooth hover effect
 - Background changes on hover
 
+**Note**: The `font-weight: 500px;` has an error - font-weight should not have units. It should be `font-weight: 500;` (unitless number) or a keyword like `bold`, `normal`, etc.
+
 #### Buttons
 ```css
 .btn {
@@ -589,13 +591,15 @@ $rownum = mysqli_num_rows($query);
 
 .btn:hover {
     background-color: #333333;
-    transform: scale(0.25rem);
+    transform: scale(0.25rem);  /* NOTE: Should be scale(1.05) or similar unitless number */
     transition: 0.5s;
 }
 ```
 - Consistent padding and sizing
 - Dark background with light text
 - Darker shade on hover with scale effect
+
+**Note**: The `transform: scale(0.25rem);` has an error - scale() expects a unitless number. It should be something like `scale(1.05)` for 5% enlargement or `scale(0.95)` for 5% reduction.
 
 ### 2. `table.css` - Table Styling
 
